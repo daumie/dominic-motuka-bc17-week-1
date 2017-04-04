@@ -1,6 +1,7 @@
-from unittest import TestCase
+import unittest
 
-class FizzBuzzClassTest(TestCase):
+from fizz_buzz import fizz_buzz
+class FizzBuzzClassTest(unittest.TestCase):
     """docstring for FizzBuzz"""
 
     def test_fizz_1(self):
@@ -23,6 +24,8 @@ class FizzBuzzClassTest(TestCase):
         
     def test_indivisible_1(self):
         self.assertEqual(fizz_buzz(101), 101, msg='should return the number if its in divisible by neither 3 or 5')
-        
+    
+if __name__ == "__main__":
+    unittest.main()
     def test_indivisible_2(self):
         self.assertEqual(fizz_buzz(8), 8, msg='should return the number if its in divisible by neither 3 or 5')
