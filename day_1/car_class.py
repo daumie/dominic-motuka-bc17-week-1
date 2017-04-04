@@ -1,30 +1,36 @@
 class Car(object):
-	def __init__(self,name="General",model="GM",speed=0, **kwargs): 
-		"""Return a new Car object."""
-		self.type = car_type
-		self.model = car_model
-		self.name = car_name
-		self.speed = speed
-		self.wheels = wheels
-		self.doors = doors
+    name = "General"
+    model = "GM"
+    num_of_doors = 4
+    speed = 0
 
+    def __init__(self, name="General", model="GM", car_type='car', num_of_wheels=4, num_of_doors=4):
+        self.name = name
+        self.model = model
+        self.car_type = car_type
+        self.num_of_wheels = num_of_wheels
+        self.num_of_doors = num_of_doors
 
-		if name in ['Porsche','Koenigsegg']:
-			doors =4
-		else:
-			doors =8
-		if car_type == 'trailer':
-			wheels =8
-		else:
-			wheels =4
-	def is_saloon(self):
-		if car_type is not 'trailer':
-			car_type == 'saloon'
-			return True
-		return False
-	def drive(self,speed):
-		if speed == 3:
-			Car.speed = 1000
-		elif speed ==7:
-			Car.speed == 77
-		return self
+        if self.car_type == "trailer":
+            self.num_of_wheels = 8
+        else:
+            self.num_of_wheels = 4
+
+        if self.name == "Porshe" or self.name == "Koenigsegg":
+            self.num_of_doors = 2
+        else:
+            self.num_of_doors = 4
+
+    def is_saloon(self):
+        if self.car_type != "trailer":
+            return True
+        else:
+            return False
+
+    def drive(self, gear):
+        if self.car_type != "trailer":
+            self.speed = int(gear * 1000 / 3)
+            return self
+        else:
+            self.speed = gear * 11
+            return self
