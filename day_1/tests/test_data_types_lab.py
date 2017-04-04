@@ -1,6 +1,8 @@
-from unittest import TestCase
+import unittest
 
-class DataTypeTestCase(TestCase):
+from data_types_lab import data_type
+
+class DataTypeTestCase(unittest.TestCase):
 
   def test_none_type(self):
     self.assertEqual('no value', data_type(None))
@@ -22,3 +24,5 @@ class DataTypeTestCase(TestCase):
   
   def test_str_type(self):
     self.assertEqual(6, data_type('andela'))
+if __name__ == "__main__":
+  unittest.main()
