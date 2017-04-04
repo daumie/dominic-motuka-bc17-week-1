@@ -1,10 +1,10 @@
 def data_type(data):
-  if type(data) == None:
+  if type(data) == type(None):
     return 'no value'
   elif type(data) == str:
     return(len(data))
   elif type(data) == bool:
-    return 'the boolean'
+    return data
   elif type(data) == int:
     if data < 100:
       return 'less than 100'
@@ -12,9 +12,9 @@ def data_type(data):
       return 'equal to 100'
     else:
       return 'more than 100'
-  elif type == list:
-    for i in data:
+  elif type(data) == list:
+    try:
       return data[2]
-    else:
-      return 'None'
+    except:
+      return None
 
