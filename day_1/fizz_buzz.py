@@ -6,7 +6,7 @@ def fizz_buzz(n): # Returns the argument it receives
 	elif n%5 == 0:
 		return 'Buzz'
 	else:
-		return str(n)
+		return n
 #print(fizz_buzz(1000))
 
 
