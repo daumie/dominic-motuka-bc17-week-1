@@ -12,8 +12,6 @@ def binary_search(given_list, item):
     		return binary_search(given_list[:midpoint], item)
     	else:
     		return binary_search(given_list[midpoint + 1:],item)
-test_list = [21,27,32,33,42,47,58,69,70,77,79]
-print(binary_search(test_list,3))
-print(binary_search(test_list,69))
-    		
-
+# test_list = [21,27,32,33,42,47,58,69,70,77,79]
+# print(binary_search(test_list,3))
+# print(binary_search(test_list,69))
