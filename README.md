@@ -87,8 +87,8 @@ An imposter google page created using html and css
 
 ### Hat tip
 
-Sieve of eratosthenes photo courtesy of [wwwhomes](http://wwwhomes.uni-bielefeld.de/achim/prime_sieve.html)
-The Andela logo , courtsey of [This is Andela](https://andela.com/blog/this-is-andela/)
+- Sieve of eratosthenes photo courtesy of [wwwhomes](http://wwwhomes.uni-bielefeld.de/achim/prime_sieve.html)
+- The Andela logo , courtsey of [This is Andela](https://andela.com/blog/this-is-andela/)
 
 
 #### License
