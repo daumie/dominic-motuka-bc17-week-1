@@ -1,4 +1,7 @@
+"""SuperClass Car"""
+
 class Car(object):
+    """Contains boilerplate car information"""
     name = "General"
     model = "GM"
     num_of_doors = 4
@@ -22,15 +25,18 @@ class Car(object):
             self.num_of_doors = 4
 
     def is_saloon(self):
+        """Checks for saloon car"""
         if self.car_type != "trailer":
             return True
         else:
             return False
 
     def drive(self, gear):
+        """Defines car speed when driving"""
         if self.car_type != "trailer":
             self.speed = int(gear * 1000 / 3)
             return self
         else:
             self.speed = gear * 11
             return self
+            
