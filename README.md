@@ -1,5 +1,6 @@
 ### A DOCUMENTATION TO ANDELA BOOTCAMP EXERCISES
 ---
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://opensource.org/licenses/MIT)
 
 ![Andela Logo](https://3xyh3sqxv063a8xzo5uk2zn1-wpengine.netdna-ssl.com/wp-content/uploads/2016/01/Andela-logo-landscape-blue-400px.png)
 
@@ -91,6 +92,4 @@ An imposter google page created using html and css
 - The Andela logo , courtsey of [This is Andela](https://andela.com/blog/this-is-andela/)
 
 
-#### License
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT)
 
