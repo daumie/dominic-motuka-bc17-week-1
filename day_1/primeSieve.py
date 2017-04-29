@@ -1,11 +1,11 @@
-import math # we will use the builtin math module
+from math import sqrt # we will use the builtin math module
 
 def isPrime(num): #Returns true if num is a prime number otherwise False
 	if num < 2: # All numbers less than 2 are not prime
 		return False
 		''' Inspect  if num is divisible by
 		 any number up to the square root of num'''
-	for i in range(2, int(math.sqrt(num))+1):
+	for i in range(2, int(sqrt(num))+1):
 		if num % i == 0:
 			return False
 	return True
