@@ -1,16 +1,20 @@
-### A DOCUMENTATION TO ANDELA BOOTCAMP EXERCISES
+# A DOCUMENTATION TO ANDELA BOOTCAMP EXERCISES
+
 ---
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://opensource.org/licenses/MIT)
 
+
 ![Andela Logo](https://3xyh3sqxv063a8xzo5uk2zn1-wpengine.netdna-ssl.com/wp-content/uploads/2016/01/Andela-logo-landscape-blue-400px.png)
 
-#### Prerequisites
+## Prerequisites
+
 Before runnig the files on your system, ensure you have `python3` installed
 You can install python on various platforms by following the various tutorisls at: [Install python](https://www.python.org/)
 
 ---
 
 ### Running the tests
+
 The project makes use of [python unittest framework](https://docs.python.org/3/library/unittest.html) .A testcase is created by subclassing `unittest.TestCase` .The three individual tests are defined with methods whose names start with the letters *test*.
 >Inorder to run the unit tests , move the files into the *tests* directory and
 >if on *nix run `$ python -u test_filename.py`
@@ -22,8 +26,11 @@ The project makes use of [python unittest framework](https://docs.python.org/3/l
 ---
 
 #### DAY 1
+
 [Day 1 proposed solution files](https://github.com/daumie/dominic-motuka-bc17-week-1/tree/master/day_1)
+
 ##### Asymptotic analysis to primeSieve.py
+
 The time complexity of the steps in primeSieve()
 For each prime number
 *primes <= sqrt(n)*
@@ -37,14 +44,15 @@ The sum of the reciprocals of the *primes* <= *n* equals asymptotically :
 
 ---
 
-### DAY 2
+#### DAY 2
 
 A list of exercises apportioned for the second day of the bootcamp(offsite)
 [Day 2 proposed solutions files](https://github.com/daumie/dominic-motuka-bc17-week-1/tree/master/day_2) 
 
 ---
 
-### DAY 3
+#### DAY 3
+
 The main highlight of work in day_3 is creating a simple commandline application that consumes a public API using HTTP client library
 [Day 3 proposed solutions files](https://github.com/daumie/dominic-motuka-bc17-week-1/tree/master/day_3)
 
@@ -58,7 +66,7 @@ The main highlight of work in day_3 is creating a simple commandline application
 
 [Day 4 proposed solutions](https://github.com/daumie/dominic-motuka-bc17-week-1/tree/master/day_4) 
 
-##### Analysis of  Binary Search
+#### Analysis of  Binary Search
 
 Each comparison in binary search eliminates about half of the remaining items from consideration. 
 
@@ -76,7 +84,8 @@ Each comparison in binary search eliminates about half of the remaining items fr
 When the list is split enough times, we end up with a list that has just one item.  Either that is the item we are looking for or it is not. The maximum
 number of comparisons is logarithmic with respect to the number of items in the list. Therefore, the binary search is ```𝑂(log 𝑛)```
 
-----
+---
+
 
 ##### Google Page Imposter
 
