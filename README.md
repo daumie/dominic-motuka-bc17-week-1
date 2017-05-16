@@ -1,9 +1,10 @@
 # A DOCUMENTATION TO ANDELA BOOTCAMP EXERCISES
 
 ---
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://opensource.org/licenses/MIT)
+[![Code Issues](https://www.quantifiedcode.com/api/v1/project/836ca71ebd684d65b9f249d4dbe649f4/badge.svg)](https://www.quantifiedcode.com/app/project/836ca71ebd684d65b9f249d4dbe649f4)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/98c47a3fd3ee4b23bf02b3c446c13568)](https://www.codacy.com/app/daumie/dominic-motuka-bc17-week-1?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=daumie/dominic-motuka-bc17-week-1&amp;utm_campaign=Badge_Grade)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/daumie/dominic-motuka-bc17-week-1/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/daumie/dominic-motuka-bc17-week-1/?branch=master)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://opensource.org/licenses/MIT)
 
 ![Andela Logo](https://3xyh3sqxv063a8xzo5uk2zn1-wpengine.netdna-ssl.com/wp-content/uploads/2016/01/Andela-logo-landscape-blue-400px.png)
 
