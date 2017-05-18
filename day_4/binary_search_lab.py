@@ -1,4 +1,6 @@
+"""Implements Binary search algorithm"""
 class BinarySearch(list):
+    """Super class for BinarySearch"""
     def __init__(self, a, b):
         self.length = a
         self.step = b
@@ -9,6 +11,7 @@ class BinarySearch(list):
 
 # Implementation of Binary Search algorithm
     def search(self, value):
+        """implements BinarySearch"""
         start, stop, index, found, count = 0, len(self)-1, 0, False, 0
 
         if value == self[start]:

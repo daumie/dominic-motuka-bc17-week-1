@@ -1,3 +1,5 @@
+"""Finds prime numbers using sieve of eratosthenes"""
+
 def sieve(num):
     """create a boolean array "prime[0...n]" and initialize all entries as True.
      A value in prime[i] will finally be false if i is not prime, else True"""

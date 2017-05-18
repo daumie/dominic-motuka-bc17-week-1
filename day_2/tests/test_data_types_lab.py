@@ -1,6 +1,6 @@
 import unittest
 
-from data_types_lab import data_type
+from day_2.data_types_lab import data_type
 
 class DataTypeTestCase(unittest.TestCase):
 
