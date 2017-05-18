@@ -28,8 +28,8 @@ def primesieve(num):
         return primes
 
 #Driver program
-# if __name__ == '__main__':
-#     print(primesieve(0))
-#     print(primesieve(-100))
-#     print(primesieve('rtr'))
-#     print(primesieve(9))
+if __name__ == '__main__':
+    print(primesieve(0))
+    print(primesieve(-100))
+    print(primesieve('rtr'))
+    print(primesieve(9))
