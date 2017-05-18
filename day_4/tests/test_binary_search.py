@@ -1,5 +1,6 @@
+"""Module for Binary Search tests"""
 import unittest
-from binary_search_lab import BinarySearch
+from day_4.binary_search_lab import BinarySearch
 
 
 class ListComprehensionTest(unittest.TestCase):
@@ -14,6 +15,7 @@ class ListComprehensionTest(unittest.TestCase):
         self.ten_to_thousand = BinarySearch(100, 10)
 
     def test_small_list(self):
+        """Tetsts Binary search for small lists"""
         self.assertListEqual(
             [1, 20, 20],
             [
@@ -49,6 +51,7 @@ class ListComprehensionTest(unittest.TestCase):
                     msg='should return 2 for consequtive numbers')
 
     def test_large_list(self):
+        """Tests Binary Search for Large lists"""
         self.assertListEqual(
             [10, 1000, 100],
             [

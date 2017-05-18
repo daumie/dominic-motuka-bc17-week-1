@@ -1,5 +1,6 @@
+"""module for testing for missing number"""
 import unittest
-from missing_num import find_missing
+from day_4.missing_num import find_missing
 
 
 class MissingNumberTest(unittest.TestCase):

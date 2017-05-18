@@ -2,7 +2,7 @@
 
 
 def binary_search(given_list, item):
-    """implements binary search"""
+    """implements binary search by factorial strategy"""
     sorted_given_list = sorted(given_list)
     len_sorted = len(sorted_given_list)
     if len_sorted == 0:
@@ -19,6 +19,6 @@ def binary_search(given_list, item):
             return binary_search(sorted_given_list[midpoint + 1:], item)
 
 
-TEST_LIST = [21, 27, 32, 33, 42, 47, 58, 69, 70, 77, 79]
-print(binary_search(TEST_LIST, 3))
-print(binary_search(TEST_LIST, 69))
+# TEST_LIST = [21, 27, 32, 33, 42, 47, 58, 69, 70, 77, 79]
+# print(binary_search(TEST_LIST, 3))
+# print(binary_search(TEST_LIST, 69))

@@ -16,4 +16,5 @@ def words(string):
                 item = int(item)
             string_dictionary[item] = separated.count(str(item))
         return string_dictionary
-#print(words("Is cat with tag 546 is come is eat is food") )
+# print(words("Is cat with tag 546 is come is eat is food with mouth"))
+
