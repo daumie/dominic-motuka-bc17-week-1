@@ -4,8 +4,7 @@ from day_1.primesieve import primesieve
 
 
 class PrimeGenerator(unittest.TestCase):
-    """Contains tests for the sieve of eratosthenes 
-    for generating prime numbers"""
+    """Contains tests for the sieve of eratosthenes for generating prime numbers"""
 
     def test_empty_list_for_1(self):
         """Test if it returns an empty list when given input 1"""
