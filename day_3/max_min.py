@@ -11,5 +11,5 @@ def find_max_min(num):
         holdinglist.append(min(num))
         holdinglist.append(max(num))
     return holdinglist
-print(find_max_min([-100, 1, 10, 1000]))
-print(find_max_min(["cat,apple,dog,trump"]))
+# print(find_max_min([-100, 1, 10, 1000]))
+# print(find_max_min(["cat,apple,dog,trump"]))

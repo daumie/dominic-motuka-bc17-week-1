@@ -1,7 +1,7 @@
+"""Module docstring"""
 import http.client
 import requests
 from pprint import pprint
-import json
 
 conn = http.client.HTTPConnection("www.open-notify.com")
 conn.request("HEAD", "/")
