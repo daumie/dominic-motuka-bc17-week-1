@@ -12,7 +12,6 @@ def sieve(num):
             # update all multiples of p
             for i in range(p * 2, num + 1, p):
                 prime[i] = False
-            p + 1
         # print all prime numbers
         for p in range(2, num):
             if prime[p]:
