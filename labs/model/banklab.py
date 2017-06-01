@@ -1,8 +1,8 @@
 class BankAccount(object):
-    def withdraw(self):
+    def withdraw(self, amount):
         pass
 
-    def deposit(self):
+    def deposit(self, amount):
         pass
 
 
