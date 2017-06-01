@@ -1,7 +1,7 @@
 """Docstring"""
 def data_type(data):
     """returns type of data"""
-    if type(data) == type(None):
+    if data is None:
         return 'no value'
     elif isinstance(data, str):
         return len(data)
